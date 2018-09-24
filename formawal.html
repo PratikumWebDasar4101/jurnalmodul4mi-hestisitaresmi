@@ -4,7 +4,25 @@
 	<title></title>
 </head>
 <body>
-silakan isi disini
+
+
+	<form action= "view.php" method="post" enctype="multipart/form-data">
+		<tr>
+			<td>Hobi : <br>
+				<input type="checkbox" name="hobi[]" value="Makan">Makan <br>
+				<input type="checkbox" name="hobi[]" value="Minum">Minum <br>
+				<input type="checkbox" name="hobi[]" value="Tidur">Baca <br>
+				<input type="checkbox" name="hobi[]" value="Browsing">Browsing <br>
+			</td>
+		</tr><br>
+		<tr>
+			<td >Upload Foto: <input type="file" name="dokumen" /></td>
+		</tr>
+		<tr>
+			<td><input type="submit" value="Upload" name="save"></td>
+		</tr>
+
+	</form>
 
 </body>
 </html>
